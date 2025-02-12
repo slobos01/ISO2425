@@ -28,4 +28,4 @@ done < /etc/passwd
 echo "Total: $Total usuarios"
 echo "===================================================="
 
-echo "$fecha - El usuario $user_auditor ha solicitado un informe de usuarios"
+echo "$fecha - El usuario $user_auditor ha solicitado un informe de usuarios" >> /tmp/logeventos
